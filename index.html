@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio - MITESH</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="script.js"></script>
+  <script src="https://kit.fontawesome.com/68a8177c0d.js" crossorigin="anonymous" defer></script>
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <div class="nav_link nbox">
+      <a href="#allAbout">About</a>
+      <a href="#allQualifications">Qualifications</a>
+      <a href="#skill_section">Skills</a>
+      <a href="#project_section">Projects</a>
+    </div>
+    <div class="nav_head nbox" onclick="window.scrollTo({top: 0, behavior:'smooth'})">Portfolio Website</div>
+    <div class="nav_button nbox">
+      <abbr title="Recommendation"><button type="button"
+          onclick="document.getElementById('recommendations').scrollIntoView({behavior:'smooth'});">Dig Into My
+          Universe</button></abbr>
+      <abbr title="Contacts"><button type="button"
+          onclick="document.getElementById('contact_section').scrollIntoView({behavior:'smooth'});">Hit me
+          up</button></abbr>
+    </div>
+    <div id="hide">
+      <div id="hide_btn">
+        <p>=</p>
+      </div>
+      <div name="" id="hide_bar">
+        <a href="#allAbout">About</a>
+        <a href="#allQualifications">Qualifications</a>
+        <a href="#skill_section">Skills</a>
+        <a href="#project_section">Projects</a>
+        <a href="#recommendations">Dig Into My Universe</a>
+        <a href="#contact_section">Hit me up</a>
+      </div>
+    </div>
+
+  </header>
+
+  <!-- Top Section -->
+  <section class="top_sec">
+    <div class="top_content">
+      <div class="h1">Hey There!! <br>I'm Mitesh and I welcome you to my Tech Universe.</div><br>
+      <div class="quote">
+        "Once a new technology rolls over and, if you're not part of the steamroller, you're part of the road."
+        <h3> - Quote by Steward Brand </h3>
+      </div>
+    </div>
+  </section>
+
+  <main>
+    <div class="largest_container">
+
+      <!-- About Section -->
+      <section class="about section" id="allAbout">
+        <img src="profile_pic.jpg" class="profile_pic" width="60px" alt="profile_pic" />
+        <div class="about_content">
+          <br /><br />
+          <span class="headings">ABOUT</span>
+          <br /><br />
+          <h1>Hi, I'm Mitesh Godne !!</h1><br>
+          <p>
+            I'm an aspiring frontend web developer based in MP, India.
+            Drawing from a foundation in productive programming
+            and proficient knowledge of JavaScript, I am constantly
+            expanding my expertise in Full stack web development. I am an avid user and have created few websites.
+          </p>
+          <br>
+          <a href="MiteshResume.pdf" class="contact_btns">Download Resume <i class="fa-regular fa-file"></i>
+          </a> <br>
+          <a href="https://github.com/miteshgodne" class="contact_btns" id="git_btn" alt="Github-Link" target="_blank">
+            Github <i class="fa-brands fa-github"></i></a>
+        </div>
+        <button type="button" class="gotop" onclick="window.scrollTo({top: 0, behavior:'smooth'});">&#8593</button>
+      </section>
+      <hr>
+
+      <!-- Qualification's Section -->
+      <section class="section" id="allQualifications">
+        <div class="quali_box">
+          <span class="headings">QUALIFICATIONS</span><br /><br />
+          <div class="qualifications">
+            <div class="achedemics common_quali">
+              <h1>Achedemics & Cources</h1>
+              <ul type="disc">
+                <li>
+                  Bachelor's of Compyuter Applications= <b>9.56 CGPA</b>
+                </li>
+                <li>
+                  CBSE Class 12th
+                  Science= <b>91.20 %</b>
+                </li>
+                <li>
+                  CBSE Class
+                  10th =<b> 89.70 %</b>
+                </li>
+                <li>IBM Frontend Web Development Professional Course</li>
+              </ul>
+            </div>
+            <div class="courses common_quali">
+              <h1>Current Workings</h1>
+              <ul type="disc">
+                <li>GSSOC contributor</li>
+                <li>CodSoft Intern</li>
+                <li>D.S.A. Learner</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr>
+
+      <!-- Skill's Section -->
+      <section class="section" id="skill_section">
+        <div class="skill_box">
+          <span class="headings">SKILLS</span><br /><br />
+          <div class="all_skills">
+            <div class="skill">
+              <img src="html.png" alt="html_icon" />
+              <h6>HTML</h6>
+              <p>2 years experience</p>
+            </div>
+
+            <div class="skill">
+              <img src="css.png" alt="css_icon" />
+              <h6>CSS</h6>
+              <p>2 years experience</p>
+            </div>
+
+            <div class="skill">
+              <img src="js.png" alt="js_icon" />
+              <h6>JavaScript</h6>
+              <p>2 years experience</p>
+            </div>
+
+            <div class="skill">
+              <img src="java.png" alt="java_icon" />
+              <h6>JAVA</h6>
+              <p>1 years experience</p>
+            </div>
+
+            <div class="skill">
+              <img src="react.png" alt="react_icon" />
+              <h6>React.js</h6>
+              <!-- <p>1 years experience</p> -->
+            </div>
+
+            <div class="skill">
+              <img src="node.png" alt="node_icon" />
+              <h6>Node.js</h6>
+              <!-- <p>1 year of experience</p> -->
+            </div>
+
+            <div class="skill">
+              <img src="cpp.png" alt="cpp_icon" />
+              <h6>CPP Language</h6>
+              <!-- <p>2 years experience</p> -->
+            </div>
+
+            <div class="skill">
+              <img src="c.png" alt="c_icon" />
+              <h6>C Language</h6>
+              <!-- <p>2 years experience</p> -->
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr>
+
+      <!-- Project's Section -->
+      <section class="section" id="project_section">
+
+        <div class="slider_btns">
+          <button type="button" class="prev slide" onclick="plusSlides(-1)">&#8666;</button>
+          <button type="button" class="next slide" onclick="plusSlides(1)">&#8667;</button>
+        </div>
+
+        <div class="proj_box">
+          <div id="proj_heading">
+            <span class="headings">PROJECTS</span>
+          </div>
+          <div id="project_container">
+            <div class="slider-carousel">
+              <div class=" front project">
+                <div class="proj1">
+                  <img src="CountryInformatics.png" alt="">
+                  <div class="project-text">
+                    <p>Country Informatics</p><br>
+                    <div class="desc">This website fetches data about any country from an API and shows them on easily
+                      readable cards. The speciality of this website is that Asynchronous Javascript is used along
+                      with HTML5 and CSS3.</div><br>
+                    <div class="link">Github Link -<a href="https://miteshgodne.github.io/CountryInformatics/">
+                        Click Here</a></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="project">
+                <div class="proj2">
+                  <img src="urjaDham.png" alt="">
+                  <div class="project-text">
+                    <p>Urja Dham Website</p> <br>
+                    <div class="desc">This is a website created with the help of HTML5 and CSS3 for a couple running a
+                      Yoga studio situated in Indore,MP(India).</div><br>
+                    <div class="link">Github Link -<a href="https://miteshgodne.github.io/UrjaDham/">
+                        Click Here</a></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="project">
+                <div class="proj3">
+                  <img src="unitConverter.png" alt="">
+                  <div class="project-text">
+                    <p>Unit Converter</p><br>
+                    <div class="desc">This is a Website made up of HTML5, CSS3 and JS that helps to convert temperature,
+                      weight and distance into other units.</div><br>
+                    <div class="link">Github Link -<a href="https://miteshgodne.github.io/UnitConverter/">
+                        Click Here</a></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="project">
+                <div class="proj4">
+                  <img src="myAmazonClone.png" alt="">
+                  <div class="project-text">
+                    <p>Amazon Clone</p><br>
+                    <div class="desc">This is a basic Amazon Clone website that contains links to the real amazon
+                      website so that people can buy things.</div><br>
+                    <div class="link">Github Link -<a href="https://miteshgodne.github.io/AmazonCLone/">
+                        Click Here</a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+      <hr>
+
+      <!-- Recommendation's Section -->
+      <section class="section" id="recommendations">
+        <span class="headings">FEEDBACKS</span> <br><br>
+        <div class="all_recommendations">
+          <div class="recommendation">
+            <span>&#8220</span>
+            Mitesh is a very quick learner of key concepts of Web development.
+            He takes initiative within a team and has potentials to lead the team.
+            <span>&#8221</span><br>
+            <b>-Shubham</b>
+          </div>
+          <div class="recommendation">
+            <span>&#8220</span>
+            Working with Mitesh has been an awesome experience.
+            For any future projects,I would definitely want to work with him again.
+            <span>&#8221</span><br>
+            <b>-Sarthak</b>
+          </div>
+          <div class="recommendation">
+            <span>&#8220</span>
+            Mitesh is highly knowledgable.
+            He always goes the extra step to make sure everything is right.
+            <span>&#8221</span><br>
+            <b>-Krishna</b>
+          </div>
+          <div class="recommendation">
+            <span>&#8220</span>
+            I had worked along with Mitesh during the initial phase of our venture.
+            He will be an asset for any organisation!
+            <span>&#8221</span><br>
+            <b>-Jasmine</b>
+          </div>
+          <div class="recommendation">
+            <span>&#8220</span>
+            I really recommend everyone who sees this message to work with Mitesh as he is very compatible
+            to work with !!
+            <span>&#8221</span><br>
+            <b>-Arun</b>
+          </div>
+        </div>
+
+        <div class="flex_center">
+          <fieldset>
+            <legend class="introduction">
+              <h1> Send a Feedback </h1>
+            </legend>
+            <form action="https://api.web3forms.com/submit" id="myform" method="POST">
+              <input type="hidden" name="access_key" value="35a9c9c5-88e9-488d-860c-79277c917cfe">
+              <input type="text" name="name" placeholder=" Enter Your Name" id="viewer_name" required> <br />
+              <input type="email" name="email" placeholder=" Enter your Email" required>
+              <textarea name="message" cols="500" rows="5" id="new_recommendation" placeholder=" Message"
+                required></textarea>
+              <div class="flex_center_btn">
+                <button id="recommend_btn" type="submit">Submit</button>
+              </div>
+            </form>
+
+          </fieldset>
+        </div>
+      </section>
+      <hr>
+
+      <!-- Contact's Section -->
+      <section class="section" id="contact_section">
+        <span class="headings">CONTACTS</span> <br><br>
+        <div class="contact">
+          <div class="mail_me">
+            <form action="mailto:godnemitesh12345@gmail.com">
+              <span id="email_text">Email &#128231; : dev.miteshgodne@gmail.com</span><br>
+              <input type="submit" value="Ping on Email" id="send_mail">
+            </form>
+          </div>
+          <div class="github_id">
+            Github Profile : <a href="https://github.com/miteshgodne">github.com/miteshgodne</a>
+            <br><a href="https://github.com/miteshgodne" class="contact_btns">Check Out Github Profile</a>
+          </div>
+          <div class="linkedIn">
+            Linkdin Profile : <a
+              href="https://www.linkedin.com/in/mitesh-godne-31bbbb24b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+              Mitesh Godne</a>
+            <br><a
+              href="https://www.linkedin.com/in/mitesh-godne-31bbbb24b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+              class="contact_btns">Visit LinkedIn Page</a>
+          </div>
+          <div class="phone_no">
+            Phone No. : +91 9669673602
+          </div>
+        </div>
+      </section>
+      <hr>
+
+      <!-- Footer -->
+      <footer>
+        <div class="footer">
+          <a href="#allAbout">About</a>
+          <a href="#allQualifications">Qualifications</a>
+          <a href="#skill_section">Skills</a>
+          <a href="#project_section">Projects</a>
+          <a href="#recommendations">Recommendations</a>
+          <a href="#contact_section">Contacts</a>
+        </div>
+        <p> Created with &#9829 </p>
+        <p>Thank You For Visiting</p>
+        <p> &copy; Copyright-2024, MiteshGodne, All Rights Reserved</p>
+      </footer>
+      <hr>
+    </div>
+  </main>
+
+</body>
+
+</html>
