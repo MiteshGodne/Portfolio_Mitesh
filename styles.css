@@ -221,13 +221,8 @@ body {
 }
 
 .profile_pic {
-  mask-repeat: no-repeat;
-  -webkit-mask-repeat: no-repeat;
   margin: 10% 5% 10% 5%;
-  width: 35vw;
-  border: 2px solid white;
-  border-radius: 50px;
-  box-shadow: -10px 10px 10px rgba(255, 255, 255, 0.473);
+  width: 30vw;
 }
 
 .about_content {
